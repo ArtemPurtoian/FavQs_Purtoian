@@ -54,7 +54,7 @@ def create_user():
     }
 
 # creating and getting a user
-def test_create_and_get_user(create_user):
+def test_get_user(create_user):
     user_token = create_user["user_token"]
     user_login = create_user["user_login"]
     url_get_user = f"{BASE_URL}/users/{user_login}"
