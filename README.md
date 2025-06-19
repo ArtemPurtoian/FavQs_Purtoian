@@ -18,6 +18,10 @@ Make sure you have Python installed on your machine.
 ---
 ## Running the test script
 
-* To run the test suit execute the following command
+* (!) Before running the script make sure to change the login and email 
+in the "create_user" fixture
+
+
+* To run the test suite execute the following command
   > pytest -s
 ---
